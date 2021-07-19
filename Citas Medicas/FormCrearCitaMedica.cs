@@ -95,5 +95,10 @@ namespace Citas_Medicas
         {
 
         }
+
+        private void precioLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

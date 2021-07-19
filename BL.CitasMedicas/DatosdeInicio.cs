@@ -26,7 +26,7 @@ namespace BL.CitasMedicas
 
             var especialidad3 = new Especialidades();
             especialidad3.Id = 3;
-            especialidad3.Especialidad = "Prediatría";
+            especialidad3.Especialidad = "Pediatria";
             contexto.Especialidades.Add(especialidad3);
 
             //Medicos
@@ -47,6 +47,7 @@ namespace BL.CitasMedicas
             doctor2.Disponibilidad = 10;
             doctor2.Activo = true;
             contexto.Doctor.Add(doctor2);
+
 
             //Tipos de Consulta
             var tipo1 = new Tipo();
